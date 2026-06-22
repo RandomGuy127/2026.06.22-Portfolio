@@ -1,38 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pap Attila Önéletrajz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Pap Attila</h1>
-    <h3>Portfólió</h3>
+    <div class="resume-container">
+        <aside class="sidebar">
+            <img src="pfp.jpg" alt="Molnár János" class="profile-img">
+            <section class="contact">
+                <h2>Kapcsolattartási adatok</h2>
+                <p>📧 pap.ata0605@gmail.com</p>
+                <p>📞 +36 20 282 8486</p>
+                <p>📍 Budapest</p>
+            </section>
+            <section class="education">
+                <h2>Oktatás</h2>
+                <p><strong>Pénzügyi mesterképzés</strong><br>Budapesti Corvinus Egyetem<br>2017 - 2021</p>
+            </section>
+        </aside>
+        
+        <main class="content">
+            <header>
+                <h1>Pap Attila</h1>
+                <p class="title">Portfóliókezelő</p>
+            </header>
+            
+            <section class="summary">
+                <h2>Összefoglaló</h2>
+                <p>Tapasztalt portfóliókezelő, aki komoly tapasztalattal rendelkezik a pénzügyi elemzés, a portfólióoptimalizálás és a stratégiai tervezés terén.</p>
+            </section>
 
-    <article class="row">
-        <div class="col-sm-4 col-lg-4">
-            <h2>Elérhetőségek</h2>
-            <p>+36 20 212 8486</p>
-            <p>pap.ata@gmail.com</p>
-            <p>Pécs</p>
-            <h1> </h1>
-            <h2>Oktatás</h2>
-            <p>Pécs Simonyi Károly</p>
-            <p>Szakképző iskola</p>
-            <p>2025-2026</p>
-        </div>
-
-        <div class="col-sm-8 col-lg-8">
-            <h2>Összefoglaló</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, debitis!</p>
-            <h1> </h1>
-            <h2>Munkahelyi tapasztalat:</h2>
-            <h3>Lorem ipsum dolor sit.</h3>
-            <p>2022. május - 2024. július</p>
-            <h1> </h1> 
-            <h2>Referenciák</h2>
-            <p></p>
-        </div>
-    </article>
+            <section class="experience">
+                <h2>Munkahelyi tapasztalat</h2>
+                <div class="job">
+                    <h3>Portfóliókezelő, OTP Bank</h3>
+                    <p class="date">2023. március – jelen</p>
+                    <ul>
+                        <li>Pénzügyi modellek fejlesztése.</li>
+                        <li>Kockázati tényezők elemzése.</li>
+                    </ul>
+                </div>
+                </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
